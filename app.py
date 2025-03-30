@@ -106,14 +106,14 @@ st.markdown(
 
 # Subida de archivos 📂
 pdf_file = st.file_uploader("📄 **Sube el archivo PDF con los precios:**", type=["pdf"])
-excel_file = st.file_uploader("📊 **Sube el archivo Excel de productos:**", type=["xlsx"])
+excel_file = st.file_uploader("📊 **Sube el archivo Excel de productos exportado de Dux (seccion base de datos > Productos):**", type=["xlsx"])
 
 # Parámetros de utilidad 📊
 utilidad_minorista = st.number_input(
-    "🏪 **Margen de utilidad para minorista (%)**", min_value=0.0, value=30.0, step=1.0
+    "🏪 **Margen de utilidad para minorista (%)**", min_value=0.0, value=45.0, step=1.0
 )
 utilidad_mayorista = st.number_input(
-    "🏢 **Margen de utilidad para mayorista (%)**", min_value=0.0, value=20.0, step=1.0
+    "🏢 **Margen de utilidad para mayorista (%)**", min_value=0.0, value=15.0, step=1.0
 )
 
 # Botón para procesar los datos 🔥
