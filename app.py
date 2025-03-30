@@ -106,7 +106,7 @@ st.markdown(
 
 # Subida de archivos 📂
 pdf_file = st.file_uploader("📄 **Sube el archivo PDF con los precios:**", type=["pdf"])
-excel_file = st.file_uploader("📊 **Sube el archivo Excel de productos exportado de Dux (seccion base de datos > Productos):**", type=["xlsx"])
+excel_file = st.file_uploader("📊 **Sube el archivo Excel de productos exportado de Dux (seccion base de datos > Productos. Recorda cambiar version del archivo excel):**", type=["xlsx"])
 
 # Parámetros de utilidad 📊
 utilidad_minorista = st.number_input(
