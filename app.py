@@ -94,7 +94,7 @@ st.markdown(
     "1. Sube PDF de costos nuevos.\n"
     "2. Sube Excel de catálogo (.xls/.xlsx).\n"
     "3. Define márgenes y procesa.\n"
-    "4. Descarga dos archivos separados sin perder botones."
+    "4. Descarga dos archivos separados."
 )
 
 pdf_file   = st.file_uploader("📄 PDF de costos nuevos", type=["pdf"])
